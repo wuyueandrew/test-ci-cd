@@ -64,6 +64,6 @@ jobs:
      steps:
        - uses: actions/checkout@v3
        - name: build-image
-         run: docker build -t test-ci-cd:latest
+         run: docker build -t test-ci-cd:latest .
      
   
